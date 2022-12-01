@@ -37,4 +37,4 @@ Diagrama de la Pagina Web.
 [![diagrama](https://github.com/abyakko/CURSO_INNOVA/blob/main/FRONTEND/1.%20Introducci%C3%B3n/img/DiagramaAbogabot.png "diagrama")](https://github.com/abyakko/CURSO_INNOVA/blob/main/FRONTEND/1.%20Introducci%C3%B3n/img/DiagramaAbogabot.png "diagrama")
 ## 3.  UX -  UI
 Hech oen figma ver [aqui](https://www.figma.com/file/ZHI3QzVrYN9m9qnDEpRpKf/Untitled?node-id=0%3A1&t=CshlGQGzAZ7wGi2o-0 "aqui")
-[![ux](ass "ux")](https://github.com/abyakko/CURSO_INNOVA/blob/main/FRONTEND/1.%20Introducci%C3%B3n/img/ux.png "ux")
+[![ux]([![ux](ass "ux")](https://github.com/abyakko/CURSO_INNOVA/blob/main/FRONTEND/1.%20Introducci%C3%B3n/img/ux.png "ux") "ux")]([![ux](ass "ux")](https://github.com/abyakko/CURSO_INNOVA/blob/main/FRONTEND/1.%20Introducci%C3%B3n/img/ux.png "ux") "ux")
