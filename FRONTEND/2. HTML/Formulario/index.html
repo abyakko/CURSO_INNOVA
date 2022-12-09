@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Pedidos</title>
+</head>
+<body>
+    <header class="Logo">
+        <img src="../ICONOS/pasteles.png" alt="logo tacos bolivia">
+        <nav class="Menu"> 
+            <ul>
+                <li>
+                    <a href="../PRESENTACION/index.html" class="Inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="../SABORES/index.html" class="VerSabor">Ver Sabores</a>
+                </li>
+                <li>
+                    <a href="../CONTACTENOS/index.html" class="Contactanos">Contactanos</a>
+                </li>
+ 
+                    <a href="../PEDIDO/index.html" class="Carito">
+                        <img src="../ICONOS/carito.png" alt="logo tacos bolivia">
+                    </a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <form action="../PEDIDO/index.html">
+        <section>
+            <h3>Datos del cliente</h3>
+    <label for="correo">Introdusca su correo electronico</label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+    
+    <label for="nombres">Introdusca su Nombre completo</label><br>
+    <input type="text" id="nombres" name="nombres"><br><br>
+    
+    <label for="apellidos">Introdusca sus apellidos</label><br>
+    <input type="text" id="apellidos" name="apellidos"><br><br>
+
+    
+    <label for="tel">Introdusca su número de télefono</label><br>
+    <input type="tel" id="tel" name="tel" maxlength="10"><br><br>
+        </section>
+        <section>
+            <h3>Sabores que llevara el pastel</h3>
+            <label for="Cantidad">cantidad de pasteles</label><br>
+    <input type="number" id="Cantidad" name="Cantidad"><br><br>
+            
+    <input type="checkbox" id="topping1" name="topping1" value="chocolate">
+    <label for="topping1">chocolate.....15 Bs</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Cereza">
+    <label for="topping2">Cereza.....17 Bs</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Vainilla">
+    <label for="topping3">Vainilla.....18 Bs</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Frambueza">
+    <label for="topping4">Frambueza.....25 Bs</label><br>
+        </section>
+        <section>
+            <h3>Adornos que llevara el pastel</h3>
+            
+
+            <input type="checkbox" id="topping1" name="topping1" value="chispas">
+    <label for="topping1">chispas.....5 Bs</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Glasiado">
+    <label for="topping2">Glasiado.....11 Bs</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Frutas">
+    <label for="topping3">Frutas</label><br>
+
+    <input type="checkbox" id="topping1" name="topping1" value="manzana">
+    <label for="topping1">manzana.....1 Bs</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="pera">
+    <label for="topping2">pera.....2 Bs</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Frutilla">
+    <label for="topping3">Frutilla.....5 Bs</label><br>
+
+    
+
+        </section>
+
+        <section>
+            <h3>alguna nota encima del pastel</h3>
+            <input type="radio" id="Si" name="SiNo" value="Si">
+    <label for="Si">Si.....1 Bs</label><br>
+    <label for="Nota">Introdusca la nota que llevara</label><br>
+    <input type="text" id="Nota" name="Nota"><br>
+
+    <input type="radio" id="No" name="SiNo" value="No">
+    <label for="No">No</label><br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+        </section>  
+        <section>
+            <label for="Total">pago total</label><br>
+    <input type="text" id="Total" name="Total"><br>
+        </section>  
+
+<button>Mandar al carrito</button>
+<button>Agregar mas pedidos</button>
+    </form>
+    
+</body>
+</html>
