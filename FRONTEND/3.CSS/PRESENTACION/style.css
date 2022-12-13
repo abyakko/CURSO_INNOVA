@@ -1,0 +1,26 @@
+
+body{
+    color: rgb(167, 162, 162);
+    font-weight: 700; 
+    background-color: rgb(255, 255, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Verdana, sans-serif;
+     margin: 0;
+  
+}
+header{
+  
+}
+header h2{
+    color: blue;
+}
+.menu{
+    text-align: center;
+    display: flex;
+    
+}
+section{
+
+}
+footer{
+
+}
